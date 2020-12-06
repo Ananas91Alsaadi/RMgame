@@ -1,0 +1,51 @@
+charachters:::::::
+player morty 
+the game is pickle rick
+monster Scary Terry
+slower Jerry
+
+
+goal find beth, she has Syringe.
+
+
+rooms and worlds:::::::::
+the garage ()
+mortys room ()
+living room ()
+Bird World (bird person)
+Gazorpazorp ()
+The Pawn Shop Planet ()
+froopyland (Tommy )
+
+
+items:::::::
+Leser pistol1
+Meeseek's box2
+Feather3
+Gazorpazorp Sex Robot4
+Mega Seeds5
+Plumbus6
+
+Portal Gun
+Syringe
+
+
+
+
+
+qutoes:::::::::::
+"'Wubba lubba dub dub' means 'I am in great pain, please help me'."
+"'Gubba nub nub doo rah kah' means 'Whatever lets you sleep at night'."
+
+
+scenario::::::::::::
+1living room (talk summer, go to your room, go to the garage, Plumbus.)
+2yours (Leser pistol, Meeseek's box, Plumbus)
+3the garage (talk to pickle rick, Portal Gun, go to living room, use portal gun, Plumbus)
+portal gun (Bird World,  The Pawn Shop Planet, Gazorpazorp, Home)
+4Bird World (talk to bird person, Plumbus, Feather)
+5Gazorpazorp (Tlak to Gazorpazorp queen, Plumbus)
+6The Pawn Shop Planet (Gazorpazorp Sex Robot, Plumbus, Mega Seeds)
+7froopyland (talk to Tommy, Plumbus)
+beth <bring bird person to talk to tommy>(talk to Tommy, Plumbus, take the syreng from Beth)
+the garage (save rick)

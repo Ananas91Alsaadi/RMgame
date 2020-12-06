@@ -1,0 +1,310 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="lab3cssAnas.css">
+<script src="Lab3JSAnas.js"></script>
+<title>Lab3</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.jpg" alt="" id="logo">
+	</header>
+	<main>
+		<img src="img/finish.png" alt="" id="win" onClick="die(winsay)">
+		<img src="img/scary_terry_and_morty_801.png" alt="" id="terry" onClick="die(losesay)">
+		<div id="r1">
+			<img src="img/living room.jpg" alt="">
+			<div class="face">
+			<h3>Things to use</h3>
+				<div class="tools">
+					<figure onClick="say(summersay)">
+						<img src="img/Summer_is_cool.jpg" alt="">
+						<figcaption>Talk to Summer</figcaption>
+					</figure>
+					<figure id="img1a1" onClick="takes(1)">
+						<img src="img/Leser pistol.jpg" alt="">
+						<figcaption>Take Leser pistol</figcaption>
+					</figure>
+					<figure id="img1a2" onClick="takes(2)">
+						<img src="img/Meeseek's box.jpg" alt="">
+						<figcaption>Meeseek's box</figcaption>
+					</figure>
+					<figure id="img1a3" onClick="takes(3)">
+						<img src="img/feather.jpg" alt="">
+						<figcaption>Take the Feather</figcaption>
+					</figure>
+					<figure id="img1a4" onClick="takes(4)">
+						<img src="img/Gazorpazorp Sex Robot.png" alt="">
+						<figcaption>Take Gazorpazorp  Sex Robot</figcaption>
+					</figure>
+					<figure id="img1a5" onClick="takes(5)">
+						<img src="img/Mega Seeds.png" alt="">
+						<figcaption>Take Mega Seeds</figcaption>
+					</figure>
+					<figure id="img1a6" onClick="takes(6)">
+						<img src="img/Plumbus.png" alt="">
+						<figcaption>Take the Plumbus</figcaption>
+					</figure>
+			<figure onClick="walk()">
+			<img src="img/PhSy.gif" alt="">
+		  <figcaption>Go to another room</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div id="r2">
+			<img src="img/mortys room.png" alt="">
+			<div class="face">
+				<h3>Things to use</h3>
+				<div class="tools">
+					<figure id="img2a1" onClick="takes(1)">
+						<img src="img/Leser pistol.jpg" alt="">
+						<figcaption>Take Leser pistol</figcaption>
+					</figure>
+					<figure id="img2a2" onClick="takes(2)">
+						<img src="img/Meeseek's box.jpg" alt="">
+						<figcaption>Meeseek's box</figcaption>
+					</figure>
+					<figure id="img2a3" onClick="takes(3)">
+						<img src="img/feather.jpg" alt="">
+						<figcaption>Take the Feather</figcaption>
+					</figure>
+					<figure id="img2a4" onClick="takes(4)">
+						<img src="img/Gazorpazorp Sex Robot.png" alt="">
+						<figcaption>Take Gazorpazorp  Sex Robot</figcaption>
+					</figure>
+					<figure id="img2a5" onClick="takes(5)">
+						<img src="img/Mega Seeds.png" alt="">
+						<figcaption>Take Mega Seeds</figcaption>
+					</figure>
+					<figure id="img2a6" onClick="takes(6)">
+						<img src="img/Plumbus.png" alt="">
+						<figcaption>Take the Plumbus</figcaption>
+					</figure>
+					<figure onClick="walk()">
+						<img src="img/PhSy.gif" alt="">
+						<figcaption>Go to another room</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div id="r3">
+			<img src="img/garage.jpg" alt="">
+			<div class="face">
+				<h3>Things to use</h3>
+				<div class="tools">
+					<figure>
+						<img src="img/pickle rick.gif" alt="" onClick="say(ricksay)">
+						<figcaption>Talk to pickle Rick</figcaption>
+					</figure>
+					<figure onClick="takeportal()" id="portalitem">
+						<img src="img/Portal Gun.jpg" alt="">
+						<figcaption>Take the Portal Gun</figcaption>
+					</figure>
+					<figure id="img3a1" onClick="takes(1)">
+						<img src="img/Leser pistol.jpg" alt="">
+						<figcaption>Take Leser pistol</figcaption>
+					</figure>
+					<figure id="img3a2" onClick="takes(2)">
+						<img src="img/Meeseek's box.jpg" alt="">
+						<figcaption>Meeseek's box</figcaption>
+					</figure>
+					<figure id="img3a3" onClick="takes(3)">
+						<img src="img/feather.jpg" alt="">
+						<figcaption>Take the Feather</figcaption>
+					</figure>
+					<figure id="img3a4" onClick="takes(4)">
+						<img src="img/Gazorpazorp Sex Robot.png" alt="">
+						<figcaption>Take Gazorpazorp  Sex Robot</figcaption>
+					</figure>
+					<figure id="img3a5" onClick="takes(5)">
+						<img src="img/Mega Seeds.png" alt="">
+						<figcaption>Take Mega Seeds</figcaption>
+					</figure>
+					<figure id="img3a6" onClick="takes(6)">
+						<img src="img/Plumbus.png" alt="">
+						<figcaption>Take the Plumbus</figcaption>
+					</figure>
+					<figure  onClick="walk()">
+						<img src="img/PhSy.gif" alt="">
+						<figcaption>Go to another room</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div id="r4">
+			<img src="img/bird world.png" alt="">
+			<div class="face">
+				<h3>Things to use</h3>
+				<div class="tools">
+					<figure onClick="say(birdpersonsay)" id="birdid">
+						<img src="img/bird person.jpg" alt="">
+						<figcaption>Talk to Bird person</figcaption>
+					</figure>
+					<figure id="img4a1" onClick="takes(1)">
+						<img src="img/Leser pistol.jpg" alt="">
+						<figcaption>Take Leser pistol</figcaption>
+					</figure>
+					<figure id="img4a2" onClick="takes(2)">
+						<img src="img/Meeseek's box.jpg" alt="">
+						<figcaption>Meeseek's box</figcaption>
+					</figure>
+					<figure id="img4a3" onClick="takes(3)">
+						<img src="img/feather.jpg" alt="">
+						<figcaption>Take the Feather</figcaption>
+					</figure>
+					<figure id="img4a4" onClick="takes(4)">
+						<img src="img/Gazorpazorp Sex Robot.png" alt="">
+						<figcaption>Take Gazorpazorp  Sex Robot</figcaption>
+					</figure>
+					<figure id="img4a5" onClick="takes(5)">
+						<img src="img/Mega Seeds.png" alt="">
+						<figcaption>Take Mega Seeds</figcaption>
+					</figure>
+					<figure id="img4a6" onClick="takes(6)">
+						<img src="img/Plumbus.png" alt="">
+						<figcaption>Take the Plumbus</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div id="r5">
+			<img src="img/Gazorpazorp plant.jpg" alt="">
+			<div class="face">
+				<h3>Things to use</h3>
+				<div class="tools">
+					<figure onClick="say(queensay)">
+						<img src="img/Gazorpazorp  queen.jpg" alt="">
+						<figcaption>Talk to Gazorpazorp  queen</figcaption>
+					</figure>
+					<figure id="img5a1" onClick="takes(1)">
+						<img src="img/Leser pistol.jpg" alt="">
+						<figcaption>Take Leser pistol</figcaption>
+					</figure>
+					<figure id="img5a2" onClick="takes(2)">
+						<img src="img/Meeseek's box.jpg" alt="">
+						<figcaption>Meeseek's box</figcaption>
+					</figure>
+					<figure id="img5a3" onClick="takes(3)">
+						<img src="img/feather.jpg" alt="">
+						<figcaption>Take the Feather</figcaption>
+					</figure>
+					<figure id="img5a4" onClick="takes(4)">
+						<img src="img/Gazorpazorp Sex Robot.png" alt="">
+						<figcaption>Take Gazorpazorp  Sex Robot</figcaption>
+					</figure>
+					<figure id="img5a5" onClick="takes(5)">
+						<img src="img/Mega Seeds.png" alt="">
+						<figcaption>Take Mega Seeds</figcaption>
+					</figure>
+					<figure id="img5a6" onClick="takes(6)">
+						<img src="img/Plumbus.png" alt="">
+						<figcaption>Take the Plumbus</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div id="r6">
+			<img src="img/The Pawn Shop Planet.jpg" alt="">
+			<div class="face">
+				<h3>Things to use</h3>
+				<div class="tools">
+					<figure id="img6a1" onClick="takes(1)">
+						<img src="img/Leser pistol.jpg" alt="">
+						<figcaption>Take Leser pistol</figcaption>
+					</figure>
+					<figure id="img6a2" onClick="takes(2)">
+						<img src="img/Meeseek's box.jpg" alt="">
+						<figcaption>Meeseek's box</figcaption>
+					</figure>
+					<figure id="img6a3" onClick="takes(3)">
+						<img src="img/feather.jpg" alt="">
+						<figcaption>Take the Feather</figcaption>
+					</figure>
+					<figure id="img6a4" onClick="takes(4)">
+						<img src="img/Gazorpazorp Sex Robot.png" alt="">
+						<figcaption>Take Gazorpazorp  Sex Robot</figcaption>
+					</figure>
+					<figure id="img6a5" onClick="takes(5)">
+						<img src="img/Mega Seeds.png" alt="">
+						<figcaption>Take Mega Seeds</figcaption>
+					</figure>
+					<figure id="img6a6" onClick="takes(6)">
+						<img src="img/Plumbus.png" alt="">
+						<figcaption>Take the Plumbus</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div id="r7">
+			<img src="img/froopyland.png" alt="">
+			<div class="face">
+				<h3>Things to use</h3>
+				<div class="tools">
+					<figure  onClick="tombird()">
+						<img src="img/tommy.jpg" alt="">
+						<figcaption>Talk to Tommy</figcaption>
+					</figure>
+					<figure id="img7a1" onClick="takes(1)">
+						<img src="img/Leser pistol.jpg" alt="">
+						<figcaption>Take Leser pistol</figcaption>
+					</figure>
+					<figure id="img7a2" onClick="takes(2)">
+						<img src="img/Meeseek's box.jpg" alt="">
+						<figcaption>Meeseek's box</figcaption>
+					</figure>
+					<figure id="img7a3" onClick="takes(3)">
+						<img src="img/feather.jpg" alt="">
+						<figcaption>Take the Feather</figcaption>
+					</figure>
+					<figure id="img7a4" onClick="takes(4)">
+						<img src="img/Gazorpazorp Sex Robot.png" alt="">
+						<figcaption>Take Gazorpazorp  Sex Robot</figcaption>
+					</figure>
+					<figure id="img7a5" onClick="takes(5)">
+						<img src="img/Mega Seeds.png" alt="">
+						<figcaption>Take Mega Seeds</figcaption>
+					</figure>
+					<figure id="img7a6" onClick="takes(6)">
+						<img src="img/Plumbus.png" alt="">
+						<figcaption>Take the Plumbus</figcaption>
+					</figure>
+					<figure id="beth" onClick="takeSyringe()">
+						<img src="img/beth.png" alt="">
+						<figcaption>Take the Syringe from Beth</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+		<div class="lefthand">
+			<img src="img/Syringe.jpg" alt="" id="Syringe" onClick="helprick()">
+			<img src="img/Portal Gun.jpg" alt="" id="portalgunitem" onClick="portal()">
+		</div>
+		<div class="righthand">
+			<img src="img/Leser pistol.jpg" alt="" id="rt1" onClick="avoidterry()">
+			<img src="img/Meeseek's box.jpg" alt="" id="rt2" onClick="say(meessay)">
+			<img src="img/feather.jpg" alt="" id="rt3">
+			<img src="img/Gazorpazorp Sex Robot.png" alt="" id="rt4" onClick="say(rosexsay)">
+			<img src="img/Mega Seeds.png" alt="" id="rt5" onClick="mega()">
+			<img src="img/Plumbus.png" alt="" id="rt6" onClick="say(plumsay)">
+		</div>
+		<fieldset id="Portal_Gunmain">
+				<legend>Portal Gun</legend>
+  				<button id="Portal_gun" onClick="move()">Go</button>
+				<label><input type="radio" value="4" name="moving"> Bird World</label>
+				<label><input type="radio" value="5" name="moving"> Gazorpazorp </label>
+				<label><input type="radio" value="6" name="moving"> The Pawn Shop Planet </label>
+				<label><input type="radio" value="7" name="moving"> Froopyland  </label>
+				<label><input type="radio" value="1" name="moving"> Home  </label>
+		</fieldset>
+		<fieldset id="roomsmain">
+				<legend>Rooms</legend>
+  				<button id="Rooms" onClick="move()">Go</button>
+				<label><input type="radio" value="3" name="moving"> The Garage </label>
+				<label><input type="radio" value="2" name="moving"> Morty's room  </label>
+				<label><input type="radio" value="1" name="moving"> Living room  </label>
+		</fieldset>
+	</main>
+</body>
+</html>
